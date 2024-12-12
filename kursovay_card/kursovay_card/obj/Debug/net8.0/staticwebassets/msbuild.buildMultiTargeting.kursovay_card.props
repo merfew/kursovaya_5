@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\kursovay_card.props" />
+</Project>

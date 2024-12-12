@@ -1,0 +1,32 @@
+[
+  {
+    "ContainingType": "kursovaya_transfer.Controllers.TransferController",
+    "Method": "TransferInside",
+    "RelativePath": "Transfer/TransferInside",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kursovaya_transfer.Controllers.TransferController",
+    "Method": "TransferOutside",
+    "RelativePath": "Transfer/TransferOutside",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kursovaya_transfer.Controllers.TransferController",
+    "Method": "ViewHistory",
+    "RelativePath": "Transfer/ViewHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

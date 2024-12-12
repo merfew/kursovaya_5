@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kursovay_card", "kursovay_card\kursovay_card.csproj", "{DE617C95-01FC-4158-8BC5-BE75B61DF767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE617C95-01FC-4158-8BC5-BE75B61DF767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE617C95-01FC-4158-8BC5-BE75B61DF767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE617C95-01FC-4158-8BC5-BE75B61DF767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE617C95-01FC-4158-8BC5-BE75B61DF767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {460F4F7C-9212-45BB-88F3-A26BA24BF6BD}
+	EndGlobalSection
+EndGlobal

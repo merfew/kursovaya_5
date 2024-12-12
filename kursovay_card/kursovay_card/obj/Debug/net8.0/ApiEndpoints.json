@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "kursovay_card.Controllers.CardController",
+    "Method": "CreateCard",
+    "RelativePath": "Card/CreateCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "kursovay_card.Model.Card",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kursovay_card.Controllers.CardController",
+    "Method": "GetCardInfo",
+    "RelativePath": "Card/GetCardInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kursovay_card.Controllers.CardController",
+    "Method": "GetCards",
+    "RelativePath": "Card/GetCards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
