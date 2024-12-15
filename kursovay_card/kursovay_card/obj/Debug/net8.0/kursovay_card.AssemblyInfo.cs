@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kursovay_card")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5f8c23f12fd85be6e2babaaf900f0c3f065136")]
 [assembly: System.Reflection.AssemblyProductAttribute("kursovay_card")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kursovay_card")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

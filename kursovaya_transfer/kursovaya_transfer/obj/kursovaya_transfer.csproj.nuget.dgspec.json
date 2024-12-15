@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj": {}
+    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj": {}
   },
   "projects": {
-    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj": {
+    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
+        "projectUniqueName": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
         "projectName": "kursovaya_transfer",
-        "projectPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
+        "projectPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
         "packagesPath": "C:\\Users\\s_dob\\.nuget\\packages\\",
-        "outputPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\obj\\",
+        "outputPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s_dob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -4,6 +4,10 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using kursovaya_auth1.RabbitMQ;
+using kursovaya_auth1.Repository;
+using kursovaya_auth1.Services;
+using kursovaya_auth1.Model;
 using kursovaya_auth1;
 using static kursovaya_auth1.JwtTokenGenerator;
 
@@ -28,6 +32,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<AppDbContext>();
+
+builder.Services.AddTransient<IAuthRepository, AuthRepository>();
+builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IJwtTokenGenerator, JwtTokenGenerator>();
+
+//builder.Services.AddScoped<IRabbitMqService, RabbitMqService>();
 
 var app = builder.Build();
 

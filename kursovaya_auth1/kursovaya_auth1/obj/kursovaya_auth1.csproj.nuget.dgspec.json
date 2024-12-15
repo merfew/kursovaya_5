@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj": {}
+    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj": {}
   },
   "projects": {
-    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj": {
+    "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj",
+        "projectUniqueName": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj",
         "projectName": "kursovaya_auth1",
-        "projectPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj",
+        "projectPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\kursovaya_auth1.csproj",
         "packagesPath": "C:\\Users\\s_dob\\.nuget\\packages\\",
-        "outputPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\obj\\",
+        "outputPath": "D:\\3 курс\\курсовая\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s_dob\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
