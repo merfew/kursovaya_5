@@ -1,49 +1,46 @@
-﻿//using RabbitMQ.Client.Events;
-//using RabbitMQ.Client;
-//using System.Threading.Tasks;
-//using System.Threading;
-//using Microsoft.Extensions.Hosting;
-//using System.Text;
-//using System.Diagnostics;
-//using System;
+﻿using System;
+using System.Diagnostics;
+using System.Text;
+using System.Text.Json;
+using kursovay_transfer.RabbitMQ;
+using kursovaya_transfer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Writers;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
+namespace kursah_5semestr.Services
+{
+    public class RabbitMqListener : IDataUpdaterService
+    {
+        private ITransferBrokerService _brokerService;
+        private readonly IServiceScopeFactory _scopeFactory;
+        private readonly IUserDataFunc _userData;
 
-//public class RabbitMqListener : BackgroundService
-//{
-//    private IConnection _connection;
-//    private IModel _channel;
+        public RabbitMqListener(ITransferBrokerService brokerService, IServiceScopeFactory scopeFactory, IUserDataFunc userData)
+        {
+            _brokerService = brokerService;
+            _scopeFactory = scopeFactory;
+            _userData = userData;
+        }
 
-//    public RabbitMqListener()
-//    {
-//        var factory = new ConnectionFactory { HostName = "localhost" };
-//        _connection = factory.CreateConnection();
-//        _channel = _connection.CreateModel();
-//        _channel.QueueDeclare(queue: "MyQueue", durable: false, exclusive: false, autoDelete: false, arguments: null);
-//    }
+        private async Task ProcessMessage(string message)
+        {
 
-//    protected override Task ExecuteAsync(CancellationToken stoppingToken)
-//    {
-//        stoppingToken.ThrowIfCancellationRequested();
+            try
+            {
+                var id = JsonSerializer.Deserialize<UserData>(message);
+                _userData.SetVariable(id.user_id.ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
 
-//        var consumer = new EventingBasicConsumer(_channel);
-//        consumer.Received += (ch, ea) =>
-//        {
-//            var content = Encoding.UTF8.GetString(ea.Body.ToArray());
-
-//            Debug.WriteLine($"Получено сообщение: {content}");
-
-//            _channel.BasicAck(ea.DeliveryTag, false);
-//        };
-
-//        _channel.BasicConsume("MyQueue1", false, consumer);
-
-//        return Task.CompletedTask;
-//    }
-
-//    public override void Dispose()
-//    {
-//        _channel.Close();
-//        _connection.Close();
-//        base.Dispose();
-//    }
-//}
+        public async Task Start()
+        {
+            await _brokerService.Subscribe("changes", ProcessMessage);
+        }
+    }
+}

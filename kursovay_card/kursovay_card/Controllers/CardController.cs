@@ -3,6 +3,7 @@ using kursovay_card.Model;
 using kursovay_card.RabbitMQ;
 using kursovay_card.Service;
 using kursovaya_card;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -23,7 +24,7 @@ namespace kursovay_card.Controllers
             _updaterService = updaterService;
             //_updaterService.Start();
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetCards()
         {
@@ -35,7 +36,7 @@ namespace kursovay_card.Controllers
             var data = await _cardService.GetCards(id);
             return Ok(data);
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetCardInfo()
         {
@@ -45,7 +46,7 @@ namespace kursovay_card.Controllers
             var card = await _cardService.GetInfoCard(Id);
             return Ok(card);
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateCard([FromBody] Card card)
         {

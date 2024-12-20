@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\repository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\repository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\rabbitmq\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\rabbitmq\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\rabbitmq\\ibrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\rabbitmq\\ibrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\rabbitmq\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\rabbitmq\\brokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\repository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\repository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|solutionrelative:kursovaya_auth1\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9C4200F-AC89-4C1E-8B61-3CE790F72F91}|kursovaya_auth1\\kursovaya_auth1.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -92,24 +92,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\Services\\AuthService.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\Services\\AuthService.cs",
               "RelativeToolTip": "kursovaya_auth1\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T22:52:17.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IBrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\RabbitMQ\\IBrokerService.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\RabbitMQ\\IBrokerService.cs",
@@ -117,11 +121,12 @@
               "RelativeToolTip": "kursovaya_auth1\\RabbitMQ\\IBrokerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:27:15.3Z"
+              "WhenOpened": "2024-12-15T21:27:15.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\RabbitMQ\\BrokerService.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\RabbitMQ\\BrokerService.cs",
@@ -134,13 +139,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\Controllers\\AuthController.cs",
               "RelativeToolTip": "kursovaya_auth1\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:43:27.687Z",
               "EditorCaption": ""
@@ -159,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HashPassword.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\HashPassword.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\HashPassword.cs",
@@ -171,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_auth1\\kursovaya_auth1\\Repository\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "kursovaya_auth1\\Repository\\IAuthRepository.cs",
@@ -181,10 +186,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T22:28:08.936Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
