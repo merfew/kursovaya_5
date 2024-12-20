@@ -5,6 +5,7 @@ using System.Text;
 using kursovaya_auth1.Model;
 using Microsoft.EntityFrameworkCore;
 using kursovaya_auth1.Repository;
+using kursovaya_auth1.RabbitMQ;
 
 namespace kursovaya_auth1.Services
 {
@@ -12,11 +13,13 @@ namespace kursovaya_auth1.Services
     {
         private readonly IAuthRepository _authRepository;
         private readonly IJwtTokenGenerator _tokenGenerator;
+        private readonly IBrokerService _brokerService;
 
-        public AuthService(IAuthRepository authRepository, IJwtTokenGenerator jwtTokenGenerator)
+        public AuthService(IAuthRepository authRepository, IJwtTokenGenerator jwtTokenGenerator, IBrokerService brokerService)
         {
             _authRepository = authRepository;
             _tokenGenerator = jwtTokenGenerator;
+            _brokerService = brokerService;
         }
 
         public async Task<(int, string)> Login(string email, string password)
@@ -37,6 +40,12 @@ namespace kursovaya_auth1.Services
                 else
                 {
                     var jwt = _tokenGenerator.GenerateToken(user.name);
+                    //UserData message = new UserData
+                    //{
+                    //    user_id = user.user_id
+                    //};
+                    var message = new UserData() { user_id = user.user_id };
+                    await _brokerService.SendMessage("changes", message);
                     return (user.user_id, jwt);
                 }
             }
@@ -48,6 +57,11 @@ namespace kursovaya_auth1.Services
             user.password = passHash;
             await _authRepository.CreateUser(user);
             var jwt = _tokenGenerator.GenerateToken(user.name);
+            UserData message = new UserData
+            {
+                user_id = user.user_id
+            };
+            await _brokerService.SendMessage("changes", message);
             return jwt;
         }
     }

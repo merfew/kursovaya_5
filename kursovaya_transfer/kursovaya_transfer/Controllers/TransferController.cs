@@ -18,7 +18,7 @@ namespace kursovaya_transfer.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewHistory()
         {
-            Response.Cookies.Append("id_user", "1");
+            Response.Cookies.Append("id_user", "5");
 
             Request.Cookies.TryGetValue("id_user", out string? Id);
             var history = await _transferService.GetHistory(Id);
@@ -28,7 +28,7 @@ namespace kursovaya_transfer.Controllers
         [HttpPut]
         public async Task<IActionResult> TransferInside([FromBody] Transfer transfer)
         {
-            Response.Cookies.Append("id_user", "1");
+            Response.Cookies.Append("id_user", "5");
             Response.Cookies.Append("id_sender", "1");
             Response.Cookies.Append("id_recipient", "2");
 
@@ -43,7 +43,7 @@ namespace kursovaya_transfer.Controllers
         [HttpPut]
         public async Task<IActionResult> TransferOutside([FromBody] Transfer transfer)
         {
-            Response.Cookies.Append("id_user", "1");
+            Response.Cookies.Append("id_user", "5");
             Response.Cookies.Append("id_sender", "1");
             Response.Cookies.Append("account_num", "0000 0000 0000 0000");
 

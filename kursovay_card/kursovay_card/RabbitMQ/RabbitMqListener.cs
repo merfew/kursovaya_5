@@ -1,53 +1,50 @@
-﻿using RabbitMQ.Client.Events;
-using RabbitMQ.Client;
-using System.Threading.Tasks;
-using System.Threading;
-using Microsoft.Extensions.Hosting;
-using System.Text;
+﻿using System;
 using System.Diagnostics;
-using System;
-using System.Threading.Channels;
+using System.Text;
 using System.Text.Json;
+using kursovay_card.Model;
+using kursovay_card.RabbitMQ;
+using kursovay_card.Service;
+using kursovaya_card;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.JsonWebTokens;
+using Microsoft.OpenApi.Writers;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
-namespace kursovay_card.RabbitMQ
+namespace kursah_5semestr.Services
 {
-    public class RabbitMqListener : BackgroundService
+    public class RabbitMqListener : IDataUpdaterService
     {
-        private IConnection _connection;
-        private IModel _channel;
+        private ICardBrokerService _brokerService;
+        private readonly IServiceScopeFactory _scopeFactory;
+        private readonly IUserDataFunc _userData;
 
-        public RabbitMqListener()
+        public RabbitMqListener(ICardBrokerService brokerService, IServiceScopeFactory scopeFactory, IUserDataFunc userData)
         {
-            var factory = new ConnectionFactory { HostName = "localhost" };
-            _connection = factory.CreateConnection();
-            _channel = _connection.CreateModel();
-            _channel.QueueDeclare(queue: "MyQueue", durable: false, exclusive: false, autoDelete: false, arguments: null);
+            _brokerService = brokerService;
+            _scopeFactory = scopeFactory;
+            _userData = userData;
         }
 
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        private async Task ProcessMessage(string message)
         {
-            stoppingToken.ThrowIfCancellationRequested();
-
-            var consumer = new EventingBasicConsumer(_channel);
-            consumer.Received += (ch, ea) =>
+            
+            try
             {
-                var content = Encoding.UTF8.GetString(ea.Body.ToArray());
-
-                Debug.WriteLine($"Получено сообщение: {content}");
-
-                _channel.BasicAck(ea.DeliveryTag, false);
-            };
-
-            _channel.BasicConsume("MyQueue", false, consumer);
-
-            return Task.CompletedTask;
+                var id = JsonSerializer.Deserialize<UserData>(message);
+                _userData.SetVariable(id.user_id.ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
-        public override void Dispose()
+        public async Task Start()
         {
-            _channel.Close();
-            _connection.Close();
-            base.Dispose();
+            await _brokerService.Subscribe("changes", ProcessMessage);
         }
     }
 }
+

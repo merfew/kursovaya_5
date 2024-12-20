@@ -39,6 +39,8 @@ builder.Services.AddTransient<IAuthRepository, AuthRepository>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IJwtTokenGenerator, JwtTokenGenerator>();
 
+builder.Services.AddTransient<IBrokerService, BrokerService>();
+
 //builder.Services.AddScoped<IRabbitMqService, RabbitMqService>();
 
 var app = builder.Build();

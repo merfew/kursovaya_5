@@ -268,3 +268,11 @@ D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_ca
 D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\obj\Debug\net8.0\kursovay_card.pdb
 D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\obj\Debug\net8.0\kursovay_card.genruntimeconfig.cache
 D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\obj\Debug\net8.0\ref\kursovay_card.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\3 курс\курсовая\kursovaya_5\kursovaya_5\kursovay_card\kursovay_card\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

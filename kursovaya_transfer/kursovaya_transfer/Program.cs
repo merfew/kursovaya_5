@@ -15,7 +15,7 @@ builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddTransient<ITransferRepository, TransferRepository>();
 builder.Services.AddTransient<ITransferService, TransferService>();
 
-builder.Services.AddHostedService<RabbitMqListener>();
+//builder.Services.AddHostedService<RabbitMqListener>();
 
 var app = builder.Build();
 
