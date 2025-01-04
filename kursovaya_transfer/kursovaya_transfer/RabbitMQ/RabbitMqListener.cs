@@ -26,11 +26,10 @@ namespace kursah_5semestr.Services
 
         private async Task ProcessMessage(string message)
         {
-
             try
             {
-                var id = JsonSerializer.Deserialize<UserData>(message);
-                _userData.SetVariable(id.user_id.ToString());
+                var id = await Task.Run(() => JsonSerializer.Deserialize<UserData>(message));
+                _userData.SetVariable(id!.user_id.ToString());
             }
             catch (Exception ex)
             {

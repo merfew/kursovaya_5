@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\idataupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\idataupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\itransferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\itransferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\transferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\transferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\kursovaya_transfer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\service\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\service\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\model\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\model\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\model\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,8 +19,64 @@
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\model\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\model\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\object\\intransferobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\object\\intransferobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\object\\outtransferobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\object\\outtransferobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\idataupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\idataupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\itransferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\itransferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\rabbitmq\\transferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\rabbitmq\\transferbrokerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\kursovaya_transfer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,67 +86,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OutTransferObj.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:19:32.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITransferBrokerService.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
-              "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "InTransferObj.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\InTransferObj.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Object\\InTransferObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:29:57.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T09:07:31.78Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TransferBrokerService.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
-              "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwBIAAABQAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\User.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\User.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\User.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:27:58.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:33:42.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Transfer.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Transfer.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Transfer.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Model\\Transfer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:34:06.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\AppDbContext.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Model\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:34:23.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Card.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Card.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Card.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Model\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:33:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TransferController.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Controllers\\TransferController.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Controllers\\TransferController.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Controllers\\TransferController.cs",
               "RelativeToolTip": "kursovaya_transfer\\Controllers\\TransferController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T13:35:28.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Program.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Program.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Program.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAKAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TransferService.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\TransferService.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Service\\TransferService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:10:10.964Z",
+              "WhenOpened": "2024-12-15T14:35:29.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IDataUpdaterService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\IDataUpdaterService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\IDataUpdaterService.cs",
@@ -142,64 +196,119 @@
               "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\IDataUpdaterService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:31:54.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T10:31:54.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\UserData.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\UserData.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\UserData.cs",
-              "RelativeToolTip": "kursovaya_transfer\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ITransferBrokerService.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
+              "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T10:26:40.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T10:29:57.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TransferService.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\TransferService.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Service\\TransferService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDQAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:35:29.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "RabbitMqListener.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
               "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T13:08:48.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T13:08:48.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "TransferBrokerService.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
+              "RelativeToolTip": "kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:27:58.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITransferRepository.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\ITransferRepository.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\ITransferRepository.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\ITransferRepository.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Repository\\ITransferRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:43:34.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "TransferRepository.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\TransferRepository.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
               "RelativeToolTip": "kursovaya_transfer\\Repository\\TransferRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:35:00.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T14:35:00.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
+              "Title": "ITransferService.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\ITransferService.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\ITransferService.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\ITransferService.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Service\\ITransferService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:52:09.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Program.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Program.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Program.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:10:10.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\UserData.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\UserData.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\UserData.cs",
+              "RelativeToolTip": "kursovaya_transfer\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:26:40.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\appsettings.json",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\appsettings.json",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\appsettings.json",
+              "RelativeToolTip": "kursovaya_transfer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-03T20:38:07.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "kursovaya_transfer.csproj",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
               "RelativeDocumentMoniker": "kursovaya_transfer\\kursovaya_transfer.csproj",
@@ -207,86 +316,11 @@
               "RelativeToolTip": "kursovaya_transfer\\kursovaya_transfer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-15T14:27:49.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T14:27:49.32Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ITransferRepository.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\ITransferRepository.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\ITransferRepository.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\ITransferRepository.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Repository\\ITransferRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:43:34.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITransferService.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\ITransferService.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\ITransferService.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\ITransferService.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Service\\ITransferService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:52:09.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Transfer.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Transfer.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Transfer.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Transfer.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Model\\Transfer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:34:06.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\AppDbContext.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\AppDbContext.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Model\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:34:23.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Card.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Card.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Card.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Card.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Model\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:33:52.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\User.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\User.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\User.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:33:42.19Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

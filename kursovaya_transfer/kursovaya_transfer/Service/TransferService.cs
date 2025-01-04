@@ -1,4 +1,5 @@
 ﻿using kursovaya_transfer.Model;
+using kursovaya_transfer.Object;
 using kursovaya_transfer.Repository;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
@@ -11,71 +12,77 @@ namespace kursovaya_transfer.Service
         {
             _transferRepository = transferRepository;
         }
-        public async Task<List<Transfer>> GetHistory(string id)
+        public async Task<List<Transfer>?> GetHistory(string id)
         {
             int.TryParse(id, out int Id);
             var history = await _transferRepository.GetHistory(Id);
             return history;
         }
 
-        public async Task<string> TransferInside(Transfer transfer, string User_Id, string sender_Id, string recipient_Id)
+        public async Task<string> TransferInside(InTransferObj transferObj, string User_Id)
         {
             int.TryParse(User_Id, out int user_Id);
-            int.TryParse(sender_Id, out int sender_id);
-            int.TryParse(recipient_Id, out int recipient_id);
 
-            Card send_card = await _transferRepository.GetCard(sender_id);
+            if (transferObj.sum <= 0)
+            {
+                return "Сумма перевода не может быть меньше нуля";
+            }
+
+            Card? send_card = await _transferRepository.GetCard(transferObj.sender_id);
             if (send_card == null)
             {
                 return "Нет карты отправителя";
             }
-            await _transferRepository.NewSendBalance(send_card, transfer.sum);
+            await _transferRepository.NewSendBalance(send_card, transferObj.sum);
 
-            Card reci_card = await _transferRepository.GetCard(recipient_id);
+            Card? reci_card = await _transferRepository.GetCard(transferObj.recipient_id);
             if (reci_card == null) 
             { 
                 return "Нет карты получателя"; 
             }
-            await _transferRepository.NewReciBalance(reci_card, transfer.sum);
+            await _transferRepository.NewReciBalance(reci_card, transferObj.sum);
 
             Transfer newTransfer = new Transfer
             {
                 user_id = user_Id,
                 sender_id = send_card.card_id,
                 recipient_id = reci_card.card_id,
-                sum = transfer.sum,
+                sum = transferObj.sum,
             };
 
             await _transferRepository.CreateTransfer(newTransfer);
             return ("Перевод выполнен успешно");
         }
 
-        public async Task<string> TransferOutside(Transfer transfer, string User_Id, string sender_Id, string account_num)
+        public async Task<string> TransferOutside(OutTransferObj transferObj, string User_Id)
         {
             int.TryParse(User_Id, out int user_Id);
-            int.TryParse(sender_Id, out int sender_id);
-            //int.TryParse(recipient_Id, out int recipient_id);
 
-            Card send_card = await _transferRepository.GetCard(sender_id);
+            if (transferObj.sum <= 0)
+            {
+                return "Сумма перевода не может быть меньше нуля";
+            }
+
+            Card? send_card = await _transferRepository.GetCard(transferObj.sender_id);
             if (send_card == null)
             {
                 return "Нет карты отправителя";
             }
-            await _transferRepository.NewSendBalance(send_card, transfer.sum);
+            await _transferRepository.NewSendBalance(send_card, transferObj.sum);
 
-            Card reci_card = await _transferRepository.GetCardByAccount(account_num);
+            Card? reci_card = await _transferRepository.GetCardByAccount(transferObj.account_number);
             if (reci_card == null)
             {
                 return "Нет карты получателя";
             }
-            await _transferRepository.NewReciBalance(reci_card, transfer.sum);
+            await _transferRepository.NewReciBalance(reci_card, transferObj.sum);
 
             Transfer newTransfer = new Transfer
             {
                 user_id = user_Id,
                 sender_id = send_card.card_id,
                 recipient_id = reci_card.card_id,
-                sum = transfer.sum,
+                sum = transferObj.sum,
             };
 
             await _transferRepository.CreateTransfer(newTransfer);

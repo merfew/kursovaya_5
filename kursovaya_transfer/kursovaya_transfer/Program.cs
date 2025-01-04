@@ -10,12 +10,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+var authOptions = new AuthOptions(builder.Configuration);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
      .AddJwtBearer(options =>
@@ -23,14 +18,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
          options.TokenValidationParameters = new TokenValidationParameters
          {
              ValidateIssuer = true,
-             ValidIssuer = AuthOptions.ISSUER,
+             ValidIssuer = authOptions.ISSUER,
              ValidateAudience = true,
-             ValidAudience = AuthOptions.AUDIENCE,
+             ValidAudience = authOptions.AUDIENCE,
              ValidateLifetime = true,
-             IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
+             IssuerSigningKey = authOptions.GetSymmetricSecurityKey(),
              ValidateIssuerSigningKey = true,
          };
      });
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddSingleton(authOptions);
 
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddTransient<ITransferRepository, TransferRepository>();
@@ -60,11 +64,22 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
 public class AuthOptions
 {
-    public const string ISSUER = "MyAuthServer";
-    public const string AUDIENCE = "MyAuthClient";
-    const string KEY = "mysupersecret_secretsecretsecretkey!123";
-    public static SymmetricSecurityKey GetSymmetricSecurityKey() =>
-        new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
+    public string? ISSUER { get; set; }
+    public string? AUDIENCE { get; set; }
+    public string? KEY { get; set; }
+
+    public AuthOptions(IConfiguration configuration)
+    {
+        ISSUER = configuration.GetValue<string>("AuthOptions:Issuer");
+        AUDIENCE = configuration.GetValue<string>("AuthOptions:Audience");
+        KEY = configuration.GetValue<string>("AuthOptions:Key");
+    }
+
+    public SymmetricSecurityKey GetSymmetricSecurityKey()
+    {
+        return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY!));
+    }
 }

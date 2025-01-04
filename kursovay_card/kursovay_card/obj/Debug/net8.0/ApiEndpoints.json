@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "card",
-        "Type": "kursovay_card.Model.Card",
+        "Name": "cardObj",
+        "Type": "kursovay_card.Object.CardObj",
         "IsRequired": true
       }
     ],
@@ -22,7 +22,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "idCardObj",
+        "Type": "kursovay_card.Object.IdCardObj",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

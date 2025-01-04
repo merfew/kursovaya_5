@@ -1,4 +1,5 @@
 ﻿using kursovay_card.Model;
+using kursovay_card.Object;
 using kursovaya_card;
 
 namespace kursovay_card.Service
@@ -6,9 +7,8 @@ namespace kursovay_card.Service
     public interface ICardService
     {
         Task<List<Card>?> GetCards(string id);
-        //Task<List<Card>?> GetCards(UserData userData);
-        Task<Card?> GetInfoCard(string id);
-        Task<string?> CreateCard(Card card, string id);
+        Task<Card?> GetInfoCard(int id);
+        Task<string?> CreateCard(CardObj cardObj, string id);
         Task<UserData> CreateUser(UserData userData);
     }
 }

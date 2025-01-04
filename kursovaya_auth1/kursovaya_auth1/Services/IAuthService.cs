@@ -1,10 +1,11 @@
 ﻿using kursovaya_auth1.Model;
+using kursovaya_auth1.Object;
 
 namespace kursovaya_auth1.Services
 {
     public interface IAuthService
     {
-        Task<string> CreateUser(User user);
-        Task<(int, string)> Login(string? email, string? password);
+        Task<AnswerObj> CreateUser(UserObj userObj);
+        Task<AnswerObj> Login(LoginObj loginObj);
     }
 }

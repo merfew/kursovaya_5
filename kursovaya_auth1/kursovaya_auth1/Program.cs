@@ -11,8 +11,9 @@ using kursovaya_auth1.Model;
 using kursovaya_auth1;
 using static kursovaya_auth1.JwtTokenGenerator;
 
-
 var builder = WebApplication.CreateBuilder(args);
+
+var authOptions = new AuthOptions(builder.Configuration);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
      .AddJwtBearer(options =>
@@ -20,11 +21,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
          options.TokenValidationParameters = new TokenValidationParameters
          {
              ValidateIssuer = true,
-             ValidIssuer = AuthOptions.ISSUER,
+             ValidIssuer = authOptions.ISSUER,
              ValidateAudience = true,
-             ValidAudience = AuthOptions.AUDIENCE,
+             ValidAudience = authOptions.AUDIENCE,
              ValidateLifetime = true,
-             IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
+             IssuerSigningKey = authOptions.GetSymmetricSecurityKey(),
              ValidateIssuerSigningKey = true,
          };
      });
@@ -34,6 +35,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>();
+
+builder.Services.AddSingleton(authOptions);
 
 builder.Services.AddTransient<IAuthRepository, AuthRepository>();
 builder.Services.AddTransient<IAuthService, AuthService>();

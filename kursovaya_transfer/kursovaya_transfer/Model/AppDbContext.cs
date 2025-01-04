@@ -7,9 +7,21 @@ namespace kursovaya_transfer.Model
         public DbSet<User> User { get; set; }
         public DbSet<Card> Card { get; set; }
         public DbSet<Transfer> Transfer { get; set; }
+
+        private readonly IConfiguration _configuration;
+
+        public AppDbContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("server=localhost;database=kursovay;username=postgres;password=12345678;");
+            if (!optionsBuilder.IsConfigured)
+            {
+                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                optionsBuilder.UseNpgsql(connectionString);
+            }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

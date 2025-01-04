@@ -18,6 +18,10 @@ namespace kursovaya_card
 
         public string GetVariable()
         {
+            if (myVariable == null)
+            {
+                return "Сообщение пустое";
+            }
             return myVariable;
         }
     }

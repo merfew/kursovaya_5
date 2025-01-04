@@ -25,12 +25,12 @@ namespace kursovay_card.Repository
             return (card);
         }
 
-        public async Task<Card> CreateCard(Card card, int id)
+        public async Task<Card> CreateCard(Card card)
         {
             await _context.Card.AddAsync(new Card
             {
                 card_id = card.card_id,
-                user_id = id,
+                user_id = card.user_id,
                 name = card.name,
                 account_number = card.account_number,
                 data = card.data,

@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "transfer",
-        "Type": "kursovaya_transfer.Model.Transfer",
+        "Name": "transferObj",
+        "Type": "kursovaya_transfer.Object.InTransferObj",
         "IsRequired": true
       }
     ],
@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "transfer",
-        "Type": "kursovaya_transfer.Model.Transfer",
+        "Name": "transferObj",
+        "Type": "kursovaya_transfer.Object.OutTransferObj",
         "IsRequired": true
       }
     ],

@@ -13,10 +13,16 @@
     "ContainingType": "kursovaya_auth1.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "Auth/Login",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "loginObj",
+        "Type": "kursovaya_auth1.Object.LoginObj",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -28,8 +34,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "kursovaya_auth1.Model.User",
+        "Name": "userObj",
+        "Type": "kursovaya_auth1.Object.UserObj",
         "IsRequired": true
       }
     ],

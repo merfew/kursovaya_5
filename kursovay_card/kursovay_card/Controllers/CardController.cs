@@ -1,5 +1,6 @@
 ﻿using kursah_5semestr.Services;
 using kursovay_card.Model;
+using kursovay_card.Object;
 using kursovay_card.RabbitMQ;
 using kursovay_card.Service;
 using kursovaya_card;
@@ -22,41 +23,28 @@ namespace kursovay_card.Controllers
             _cardService = cardService;
             _userData = userData;
             _updaterService = updaterService;
-            //_updaterService.Start();
         }
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetCards()
         {
-            //Response.Cookies.Append("id_user", "5");
-            //Request.Cookies.TryGetValue("id_user", out string? id);
-            //var data = await _cardService.GetCards(userData);
-            //await _updaterService.Start();
             var id = _userData.GetVariable();
             var data = await _cardService.GetCards(id);
             return Ok(data);
         }
         [Authorize]
         [HttpGet]
-        public async Task<IActionResult> GetCardInfo()
+        public async Task<IActionResult> GetCardInfo([FromBody] IdCardObj idCardObj)
         {
-            Response.Cookies.Append("id_card", "8");
-
-            Request.Cookies.TryGetValue("id_card", out string? Id);
-            var card = await _cardService.GetInfoCard(Id);
+            var card = await _cardService.GetInfoCard(idCardObj.Id);
             return Ok(card);
         }
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> CreateCard([FromBody] Card card)
+        public async Task<IActionResult> CreateCard([FromBody] CardObj cardObj)
         {
-            //Response.Cookies.Append("id_user", "5");
-
-            //Request.Cookies.TryGetValue("id_user", out string? Id);
-
             var Id = _userData.GetVariable();
-
-            await _cardService.CreateCard(card, Id);
+            await _cardService.CreateCard(cardObj, Id);
             return Ok("Карата создана успешно");
         }
     }

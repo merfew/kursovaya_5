@@ -1,4 +1,5 @@
 ﻿using kursovaya_auth1.Model;
+using kursovaya_auth1.Object;
 using kursovaya_auth1.RabbitMQ;
 using kursovaya_auth1.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -18,7 +19,7 @@ namespace kursovaya_auth1.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class AuthController: ControllerBase
+    public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
         public AuthController(IAuthService authService)
@@ -26,28 +27,25 @@ namespace kursovaya_auth1.Controllers
             _authService = authService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Login()
+        [HttpPost]
+        public async Task<IActionResult> Login([FromBody] LoginObj loginObj)
         {
-            Response.Cookies.Append("email", "test@test");
-            Response.Cookies.Append("password", "test");
-
-            Request.Cookies.TryGetValue("email", out string? email);
-            Request.Cookies.TryGetValue("password", out string? password);
-            (int id, string jwt) = await _authService.Login(email, password);
-            Response.Cookies.Append("jwtCookie", jwt);
-            Response.Cookies.Append("id_user", id.ToString());
-            return Ok(jwt);
+            AnswerObj answerObj = new AnswerObj();
+            answerObj = await _authService.Login(loginObj);
+            Response.Cookies.Append("jwtCookie", answerObj.jwt);
+            Response.Cookies.Append("id_user", answerObj.id.ToString());
+            return Ok(answerObj.jwt);
         }
 
 
         [HttpPost]
-        public async Task<IActionResult> Registr([FromBody] User user)
+        public async Task<IActionResult> Registr([FromBody] UserObj userObj)
         {
-            var jwt = await _authService.CreateUser(user);
-            Response.Cookies.Append("jwtCookie", jwt);
-            Response.Cookies.Append("id_user", user.user_id.ToString());
-            return Ok( jwt );
+            AnswerObj answerObj = new AnswerObj();
+            answerObj = await _authService.CreateUser(userObj);
+            Response.Cookies.Append("jwtCookie", answerObj.jwt);
+            Response.Cookies.Append("id_user", answerObj.id.ToString());
+            return Ok( answerObj.jwt );
         }
 
         [Authorize]

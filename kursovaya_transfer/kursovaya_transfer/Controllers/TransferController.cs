@@ -1,4 +1,5 @@
 ﻿using kursovaya_transfer.Model;
+using kursovaya_transfer.Object;
 using kursovaya_transfer.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,8 +23,6 @@ namespace kursovaya_transfer.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewHistory()
         {
-            //Response.Cookies.Append("id_user", "5");
-            //Request.Cookies.TryGetValue("id_user", out string? Id);
             var Id = _userData.GetVariable();
             var history = await _transferService.GetHistory(Id);
             return Ok(history);
@@ -31,37 +30,21 @@ namespace kursovaya_transfer.Controllers
 
         [Authorize]
         [HttpPut]
-        public async Task<IActionResult> TransferInside([FromBody] Transfer transfer)
+        public async Task<IActionResult> TransferInside([FromBody] InTransferObj transferObj)
         {
-            //Response.Cookies.Append("id_user", "5");
-            Response.Cookies.Append("id_sender", "1");
-            Response.Cookies.Append("id_recipient", "2");
-
-            Request.Cookies.TryGetValue("id_sender", out string Id);
-            Request.Cookies.TryGetValue("id_recipient", out string IdR);
-            //Request.Cookies.TryGetValue("id_user", out string IdU);
-
             var IdU = _userData.GetVariable();
 
-            string data = await _transferService.TransferInside(transfer, IdU, Id, IdR);
+            string data = await _transferService.TransferInside(transferObj, IdU);
             return Ok(data);
         }
 
         [Authorize]
         [HttpPut]
-        public async Task<IActionResult> TransferOutside([FromBody] Transfer transfer)
+        public async Task<IActionResult> TransferOutside([FromBody] OutTransferObj transferObj)
         {
-            //Response.Cookies.Append("id_user", "5");
-            Response.Cookies.Append("id_sender", "1");
-            Response.Cookies.Append("account_num", "0000 0000 0000 0000");
-
-            Request.Cookies.TryGetValue("id_sender", out string Id);
-            //Request.Cookies.TryGetValue("id_user", out string IdU);
-            Request.Cookies.TryGetValue("account_num", out string account_num);
-
             var IdU = _userData.GetVariable();
 
-            string data = await _transferService.TransferOutside(transfer, IdU, Id, account_num);
+            string data = await _transferService.TransferOutside(transferObj, IdU);
             return Ok(data);
         }
     }

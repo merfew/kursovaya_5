@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kursovaya_auth1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ffd980802da8d80ce7c2285ed63c00ca2882ed1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e2168b56fedf33b6ccc7812779ffecf6783bc3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("kursovaya_auth1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kursovaya_auth1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

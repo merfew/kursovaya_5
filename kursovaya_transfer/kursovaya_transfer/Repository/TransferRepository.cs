@@ -10,19 +10,19 @@ namespace kursovaya_transfer.Repository
         {
             _context = context;
         }
-        public async Task<List<Transfer?>> GetHistory(int id)
+        public async Task<List<Transfer>?> GetHistory(int id)
         {
             var history = await _context.Transfer.AsNoTracking().Where(c => c.user_id == id).ToListAsync();
             return history;
         }
 
-        public async Task<Card> GetCard(int id)
+        public async Task<Card?> GetCard(int id)
         {
             Card? card = await _context.Card.FirstOrDefaultAsync(c => c.card_id == id);
             return (card);
         }
 
-        public async Task<Card?> GetCardByAccount(string number)
+        public async Task<Card?> GetCardByAccount(string? number)
         {
             Card? card = await _context.Card.FirstOrDefaultAsync(c => c.account_number == number);
             return (card);
