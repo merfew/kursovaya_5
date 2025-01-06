@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kursovaya_transfer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e2168b56fedf33b6ccc7812779ffecf6783bc3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52e33221a4e4b0cd877bbf9eb0f797724f332498")]
 [assembly: System.Reflection.AssemblyProductAttribute("kursovaya_transfer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kursovaya_transfer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\service\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\service\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\itransferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\repository\\transferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4CD9D1-55DF-493F-ADA5-53769A81F1CD}|kursovaya_transfer\\kursovaya_transfer.csproj|solutionrelative:kursovaya_transfer\\service\\itransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,35 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\.gitignore",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\.gitignore",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\.gitignore",
+              "RelativeToolTip": "kursovaya_transfer\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-06T13:18:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "OutTransferObj.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\OutTransferObj.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Object\\OutTransferObj.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:19:32.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InTransferObj.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\InTransferObj.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Object\\InTransferObj.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:07:31.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\User.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\User.cs",
@@ -126,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Transfer.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Transfer.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Transfer.cs",
@@ -138,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\AppDbContext.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\AppDbContext.cs",
@@ -150,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Model\\Card.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Model\\Card.cs",
@@ -162,33 +155,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TransferController.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Controllers\\TransferController.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Controllers\\TransferController.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Controllers\\TransferController.cs",
               "RelativeToolTip": "kursovaya_transfer\\Controllers\\TransferController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T13:35:28.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TransferService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\TransferService.cs",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\TransferService.cs",
               "RelativeToolTip": "kursovaya_transfer\\Service\\TransferService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T14:35:29.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransferRepository.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\TransferRepository.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Repository\\TransferRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:35:00.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "InTransferObj.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\InTransferObj.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\InTransferObj.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Object\\InTransferObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:07:31.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OutTransferObj.cs",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "RelativeDocumentMoniker": "kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "RelativeToolTip": "kursovaya_transfer\\Object\\OutTransferObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:19:32.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IDataUpdaterService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\IDataUpdaterService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\IDataUpdaterService.cs",
@@ -200,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ITransferBrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\ITransferBrokerService.cs",
@@ -212,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RabbitMqListener.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\RabbitMqListener.cs",
@@ -224,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TransferBrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\RabbitMQ\\TransferBrokerService.cs",
@@ -236,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ITransferRepository.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\ITransferRepository.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\ITransferRepository.cs",
@@ -248,19 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TransferRepository.cs",
-              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
-              "RelativeDocumentMoniker": "kursovaya_transfer\\Repository\\TransferRepository.cs",
-              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Repository\\TransferRepository.cs",
-              "RelativeToolTip": "kursovaya_transfer\\Repository\\TransferRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:35:00.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ITransferService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Service\\ITransferService.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Service\\ITransferService.cs",
@@ -272,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\Program.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\Program.cs",
@@ -284,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserData.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\UserData.cs",
               "RelativeDocumentMoniker": "kursovaya_transfer\\UserData.cs",
@@ -296,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\appsettings.json",
               "RelativeDocumentMoniker": "kursovaya_transfer\\appsettings.json",
@@ -308,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "kursovaya_transfer.csproj",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\kursovaya_transfer.csproj",
               "RelativeDocumentMoniker": "kursovaya_transfer\\kursovaya_transfer.csproj",

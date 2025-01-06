@@ -44,6 +44,10 @@ namespace kursovaya_transfer.Repository
         }
         public async Task<string> NewSendBalance(Card card, float newBalance)
         {
+            if (card.balance - newBalance < 0)
+            {
+                return "Недостаточно средств на карте";
+            }
             card.balance = card.balance - newBalance;
             await _context.SaveChangesAsync();
             return "Баланс обновлен";

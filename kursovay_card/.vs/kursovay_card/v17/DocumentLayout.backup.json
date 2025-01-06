@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE617C95-01FC-4158-8BC5-BE75B61DF767}|kursovay_card\\kursovay_card.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DE617C95-01FC-4158-8BC5-BE75B61DF767}|kursovay_card\\kursovay_card.csproj|solutionrelative:kursovay_card\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE617C95-01FC-4158-8BC5-BE75B61DF767}|kursovay_card\\kursovay_card.csproj|d:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\service\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE617C95-01FC-4158-8BC5-BE75B61DF767}|kursovay_card\\kursovay_card.csproj|solutionrelative:kursovay_card\\service\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,11 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\.gitignore",
+              "RelativeDocumentMoniker": "kursovay_card\\.gitignore",
+              "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\.gitignore",
+              "RelativeToolTip": "kursovay_card\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-06T13:18:04.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IdCardObj.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Object\\IdCardObj.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Object\\IdCardObj.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CardObj.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Object\\CardObj.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Object\\CardObj.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Model\\User.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Model\\User.cs",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Transfer.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Model\\Transfer.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Model\\Transfer.cs",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Model\\Card.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Model\\Card.cs",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Model\\AppDbContext.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Model\\AppDbContext.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CardController.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Controllers\\CardController.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Controllers\\CardController.cs",
@@ -170,12 +187,11 @@
               "RelativeToolTip": "kursovay_card\\Controllers\\CardController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwC0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T21:13:22.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T21:13:22.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CardService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Service\\CardService.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Service\\CardService.cs",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CardBrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\RabbitMQ\\CardBrokerService.cs",
               "RelativeDocumentMoniker": "kursovay_card\\RabbitMQ\\CardBrokerService.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ICardBrokerService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\RabbitMQ\\ICardBrokerService.cs",
               "RelativeDocumentMoniker": "kursovay_card\\RabbitMQ\\ICardBrokerService.cs",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IDataUpdaterService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\RabbitMQ\\IDataUpdaterService.cs",
               "RelativeDocumentMoniker": "kursovay_card\\RabbitMQ\\IDataUpdaterService.cs",
@@ -224,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RabbitMqListener.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\RabbitMQ\\RabbitMqListener.cs",
               "RelativeDocumentMoniker": "kursovay_card\\RabbitMQ\\RabbitMqListener.cs",
@@ -236,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CardRepository.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Repository\\CardRepository.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Repository\\CardRepository.cs",
@@ -248,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ICardRepository.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Repository\\ICardRepository.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Repository\\ICardRepository.cs",
@@ -260,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ICardService.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Service\\ICardService.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Service\\ICardService.cs",
@@ -272,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\Program.cs",
               "RelativeDocumentMoniker": "kursovay_card\\Program.cs",
@@ -284,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserData.cs",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\UserData.cs",
               "RelativeDocumentMoniker": "kursovay_card\\UserData.cs",
@@ -296,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "kursovay_card.csproj",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\kursovay_card.csproj",
               "RelativeDocumentMoniker": "kursovay_card\\kursovay_card.csproj",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovay_card\\kursovay_card\\appsettings.json",
               "RelativeDocumentMoniker": "kursovay_card\\appsettings.json",
