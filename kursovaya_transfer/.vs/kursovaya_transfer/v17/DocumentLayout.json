@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "kursovaya_transfer\\.gitignore",
               "ToolTip": "D:\\3 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\kursovaya_5\\kursovaya_5\\kursovaya_transfer\\kursovaya_transfer\\.gitignore",
               "RelativeToolTip": "kursovaya_transfer\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-06T13:18:43.999Z",
               "EditorCaption": ""
@@ -163,8 +163,7 @@
               "RelativeToolTip": "kursovaya_transfer\\Controllers\\TransferController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:35:28.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:35:28.78Z"
             },
             {
               "$type": "Document",
@@ -176,8 +175,7 @@
               "RelativeToolTip": "kursovaya_transfer\\Service\\TransferService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:35:29.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T14:35:29.47Z"
             },
             {
               "$type": "Document",
@@ -189,8 +187,7 @@
               "RelativeToolTip": "kursovaya_transfer\\Repository\\TransferRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:35:00.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T14:35:00.446Z"
             },
             {
               "$type": "Document",
