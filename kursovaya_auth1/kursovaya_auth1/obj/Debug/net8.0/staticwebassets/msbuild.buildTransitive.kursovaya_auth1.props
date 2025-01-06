@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\kursovaya_auth1.props" />
-</Project>
