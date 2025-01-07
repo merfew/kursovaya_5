@@ -33,7 +33,11 @@ namespace kursovaya_transfer.Service
             {
                 return "Нет карты отправителя";
             }
-            await _transferRepository.NewSendBalance(send_card, transferObj.sum);
+            string str = await _transferRepository.NewSendBalance(send_card, transferObj.sum);
+            if (str == "Недостаточно средств на карте")
+            {
+                return str;
+            }
 
             Card? reci_card = await _transferRepository.GetCard(transferObj.recipient_id);
             if (reci_card == null) 
@@ -68,7 +72,11 @@ namespace kursovaya_transfer.Service
             {
                 return "Нет карты отправителя";
             }
-            await _transferRepository.NewSendBalance(send_card, transferObj.sum);
+            string str = await _transferRepository.NewSendBalance(send_card, transferObj.sum);
+            if (str == "Недостаточно средств на карте")
+            {
+                return str;
+            }
 
             Card? reci_card = await _transferRepository.GetCardByAccount(transferObj.account_number);
             if (reci_card == null)
